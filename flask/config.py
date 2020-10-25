@@ -1,8 +1,8 @@
 import os
 
 
-db_path = "sqlite:///db.sqlite"
-
+#db_path = "sqlite:///db.sqlite"
+db_path = "postgresql://adminer:adminer@db:5432/adminer"
 
 class Config:
     DEBUG = True
